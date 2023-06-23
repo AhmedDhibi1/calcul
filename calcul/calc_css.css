@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    background-color: #f9faf5;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    width: 600px;
+    height: 600px;
+    padding: 30px;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7bac3;
+    border: 0px ;
+    border-radius: 70px;
+    box-shadow:  10px 10px 10px rgba(1,2,3,0.4);
+    
+   /* justify-content: center;
+    align-items: center;*/
+}
+#show {
+    display: flex;
+    width: 550px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: #f9faf5;
+    border: 2px solid #6e77ee;
+    border-radius: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+#operation {
+    display: flex;
+    justify-content: space-around;    
+}
+
+#left, #right, #middle_left, #middle_right {
+    /*display: flexbox;*/
+    width:100px ;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 500px;
+}
+#C, #number, #negative, #parenthesis, #perc,#comm , #division, #multiply, #minus , #sum , #equal {
+    width: 90px;
+    height: 90px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    background-color :#e4e4e4;;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#C,#division, #multiply, #minus , #sum , #equal{
+    background-color: #6e77ee;
+}
+#C:hover, #number:hover, #negative:hover, #l_parenthesis:hover, #perc:hover,#comm:hover , #division:hover, #multiply:hover, #minus:hover , #sum:hover, #equal:hover {
+    opacity: 0.8;
+}
